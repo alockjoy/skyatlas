@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr" data-default-lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SkyAtlas Travel — Your journey begins with us</title>
+  <meta name="description" content="Handpicked international flight fares published by our team. Enquire by WhatsApp, phone or email — no online payment.">
+  <meta property="og:title" content="SkyAtlas Travel — Your journey begins with us">
+  <meta property="og:description" content="Handpicked international flight fares published by our team. Enquire by WhatsApp, phone or email — no online payment.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#10243A">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&display=swap">
+
+  <link rel="stylesheet" href="public/assets/css/app.css">
+  <link rel="stylesheet" href="public/assets/css/components.css">
+  <link rel="stylesheet" href="public/assets/css/animations.css">
+  <link rel="stylesheet" href="public/assets/css/responsive.css">
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+  
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-plane" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.8-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h10"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></symbol>
+    <symbol id="i-building" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M9 22v-4h6v4M8 6h.01M16 6h.01M12 6h.01M12 10h.01M12 14h.01M16 10h.01M16 14h.01M8 10h.01M8 14h.01"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></symbol>
+  </defs>
+</svg>
+
+  <div class="announce" role="region" aria-label="Announcement">
+  <div class="container">
+    <span class="announce__dot pulse-dot" aria-hidden="true"></span>
+    <span data-i18n="announce.text">Fares are published by our team and confirmed personally — no online payments.</span>
+    <a href="#" data-contact="whatsapp" data-i18n="announce.link">Chat on WhatsApp</a>
+  </div>
+</div>
+
+  <header class="site-header">
+  <div class="container">
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="index.html" aria-label="SkyAtlas Travel — Home">
+        <span class="brand__mark"><svg aria-hidden="true"><use href="#i-plane"></use></svg></span>
+        <span>SkyAtlas<small>Travel</small></span>
+      </a>
+
+      <ul class="nav__links">
+        <li><a href="index.html" data-nav="home" data-i18n="nav.home">Home</a></li>
+        <li><a href="about.html" data-nav="about" data-i18n="nav.about">About Us</a></li>
+        <li><a href="flights.html" data-nav="flights" data-i18n="nav.flights">Flights</a></li>
+        <li><a href="destinations.html" data-nav="destinations" data-i18n="nav.destinations">Destinations</a></li>
+        <li><a href="branches.html" data-nav="branches" data-i18n="nav.branches">Our Branches</a></li>
+        <li><a href="contact.html" data-nav="contact" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <a class="nav__phone ltr" href="#" data-contact="phone"><svg aria-hidden="true"><use href="#i-phone"></use></svg><span data-config="phone">+39 000 000 0000</span></a>
+        
+<div class="lang" data-lang>
+  <button type="button" class="lang__btn" aria-haspopup="true" aria-expanded="false" data-i18n-aria="nav.language" aria-label="Language">
+    <svg aria-hidden="true"><use href="#i-globe"></use></svg>
+    <span data-lang-current>English</span>
+    <svg class="chev" aria-hidden="true"><use href="#i-chevron"></use></svg>
+  </button>
+  <ul class="lang__menu" role="menu">
+    <li role="none"><button type="button" role="menuitemradio" aria-checked="true" data-lang-option="en" lang="en">English <small>EN</small></button></li>
+    <li role="none"><button type="button" role="menuitemradio" aria-checked="false" data-lang-option="it" lang="it">Italiano <small>IT</small></button></li>
+    <li role="none"><button type="button" role="menuitemradio" aria-checked="false" data-lang-option="bn" lang="bn">বাংলা <small>BN</small></button></li>
+    <li role="none"><button type="button" role="menuitemradio" aria-checked="false" data-lang-option="ar" lang="ar">العربية <small>AR</small></button></li>
+  </ul>
+</div>
+
+        <a class="btn btn--coral btn--sm nav__cta" href="contact.html" data-i18n="nav.cta">Talk to an Expert</a>
+        <button type="button" class="nav__toggle" aria-controls="mobile-drawer" aria-expanded="false" data-i18n-aria="nav.menu" aria-label="Open menu">
+          <svg aria-hidden="true"><use href="#i-menu"></use></svg>
+        </button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- Mobile drawer -->
+<div class="drawer" id="mobile-drawer" aria-hidden="true">
+  <div class="drawer__backdrop"></div>
+  <div class="drawer__panel" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="drawer__top">
+      <span class="brand"><span class="brand__mark"><svg aria-hidden="true"><use href="#i-plane"></use></svg></span>SkyAtlas</span>
+      <button type="button" class="btn btn--outline btn--sm" data-drawer-close data-i18n-aria="nav.close" aria-label="Close menu"><svg aria-hidden="true"><use href="#i-close"></use></svg></button>
+    </div>
+    <ul class="drawer__links">
+      <li><a href="index.html" data-nav="home" data-i18n="nav.home">Home</a></li>
+      <li><a href="about.html" data-nav="about" data-i18n="nav.about">About Us</a></li>
+      <li><a href="flights.html" data-nav="flights" data-i18n="nav.flights">Flights</a></li>
+      <li><a href="destinations.html" data-nav="destinations" data-i18n="nav.destinations">Destinations</a></li>
+      <li><a href="branches.html" data-nav="branches" data-i18n="nav.branches">Our Branches</a></li>
+      <li><a href="contact.html" data-nav="contact" data-i18n="nav.contact">Contact</a></li>
+    </ul>
+    
+<div class="lang" data-lang>
+  <button type="button" class="lang__btn" aria-haspopup="true" aria-expanded="false" data-i18n-aria="nav.language" aria-label="Language">
+    <svg aria-hidden="true"><use href="#i-globe"></use></svg>
+    <span data-lang-current>English</span>
+    <svg class="chev" aria-hidden="true"><use href="#i-chevron"></use></svg>
+  </button>
+  <ul class="lang__menu" role="menu">
+    <li role="none"><button type="button" role="menuitemradio" aria-checked="true" data-lang-option="en" lang="en">English <small>EN</small></button></li>
+    <li role="none"><button type="button" role="menuitemradio" aria-checked="false" data-lang-option="it" lang="it">Italiano <small>IT</small></button></li>
+    <li role="none"><button type="button" role="menuitemradio" aria-checked="false" data-lang-option="bn" lang="bn">বাংলা <small>BN</small></button></li>
+    <li role="none"><button type="button" role="menuitemradio" aria-checked="false" data-lang-option="ar" lang="ar">العربية <small>AR</small></button></li>
+  </ul>
+</div>
+
+    <a class="btn btn--primary btn--block" href="contact.html" data-i18n="nav.cta">Talk to an Expert</a>
+    <a class="btn btn--whatsapp btn--block" href="#" data-contact="whatsapp"><svg aria-hidden="true"><use href="#i-whatsapp"></use></svg><span data-i18n="modal.whatsapp">WhatsApp Us</span></a>
+  </div>
+</div>
+
+
+  <main id="main">
+    
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero__media">
+    <img src="public/assets/images/hero/hero-airport.jpg" alt="" width="1920" height="1200" fetchpriority="high">
+  </div>
+  <svg class="float-plane" aria-hidden="true"><use href="#i-plane"></use></svg>
+
+  <div class="container hero__inner">
+    <div>
+      <span class="eyebrow reveal" data-i18n="hero.eyebrow">International travel specialists</span>
+      <h1 class="reveal" style="--delay:.08s" data-i18n-html="hero.title">Your Journey <em>Begins</em> With Us</h1>
+      <p class="hero__text reveal" style="--delay:.16s" data-i18n="hero.text">Discover destinations, explore flight offers, and connect with our travel experts for personalized assistance.</p>
+      <div class="hero__actions reveal" style="--delay:.24s">
+        <a class="btn btn--coral" href="flights.html"><span data-i18n="hero.cta1">Explore Flight Offers</span><svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+        <a class="btn btn--glass" href="contact.html" data-i18n="hero.cta2">Contact Our Team</a>
+      </div>
+    </div>
+
+    <div class="hero__stack">
+      <!-- Featured fare card (first fare in data.js) -->
+      <button type="button" class="route-card reveal float-slow" style="--delay:.3s" data-hero-fare>
+        <span class="route-card__top"><span data-i18n="hero.card.label">Featured fare</span><span class="tag tag--gold" data-slot="codes"></span></span>
+        <strong style="display:block;font-size:1.5rem;margin-top:.9rem;color:var(--navy)" data-slot="route"></strong>
+        <span style="display:block;font-size:.85rem;color:var(--muted);margin-top:.2rem" data-slot="airline"></span>
+        <span style="display:flex;justify-content:space-between;align-items:end;margin-top:1.1rem" class="price">
+          <span><small data-i18n="hero.card.from">from</small><strong data-slot="price"></strong></span>
+          <span class="btn btn--primary btn--sm" data-i18n="card.enquire">Enquire</span>
+        </span>
+      </button>
+      <div class="glass-card reveal float-slower" style="--delay:.4s">
+        <span class="glass-card__icon btn--whatsapp"><svg aria-hidden="true"><use href="#i-whatsapp"></use></svg></span>
+        <span><strong data-i18n="hero.chip1.t">Reply on WhatsApp</strong><small data-i18n="hero.chip1.d">During office hours</small></span>
+      </div>
+      <div class="glass-card reveal" style="--delay:.5s">
+        <span class="glass-card__icon tone-royal"><svg aria-hidden="true"><use href="#i-globe"></use></svg></span>
+        <span><strong data-i18n="hero.chip2.t">4 languages</strong><small data-i18n="hero.chip2.d">EN · IT · বাংলা · العربية</small></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FLIGHT OFFERS ============ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <span class="eyebrow" data-i18n="flights.eyebrow">Flight offers</span>
+        <h2 data-i18n="flights.title">Handpicked fares, confirmed by people</h2>
+      </div>
+      <p data-i18n="flights.text">Our team publishes these fares manually.</p>
+    </div>
+    <!-- Future Laravel dynamic flight cards -->
+    <div class="grid grid--3" data-flights data-limit="6"></div>
+    <div style="text-align:center;margin-top:2.5rem">
+      <a class="btn btn--outline" href="flights.html"><span data-i18n="flights.viewAll">View all flights</span><svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DESTINATIONS ============ -->
+<section class="section section--white">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <span class="eyebrow" data-i18n="dest.eyebrow">Destinations</span>
+        <h2 data-i18n="dest.title">Places our travellers love</h2>
+      </div>
+      <p data-i18n="dest.text">From Europe's capitals to the Gulf and South Asia.</p>
+    </div>
+    <!-- Future Laravel dynamic destination cards -->
+    <div class="dest-grid" data-destinations data-img-base="public/assets/images/"></div>
+  </div>
+</section>
+
+<!-- ============ WHY US ============ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <span class="eyebrow" data-i18n="why.eyebrow">Why SkyAtlas</span>
+        <h2 data-i18n="why.title">Real people behind every fare</h2>
+      </div>
+    </div>
+    <div class="grid grid--4">
+      <article class="feature reveal"><span class="feature__icon tone-royal"><svg aria-hidden="true"><use href="#i-user"></use></svg></span><h3 data-i18n="why.1.t">Personal assistance</h3><p data-i18n="why.1.d"></p></article>
+      <article class="feature reveal" style="--delay:.08s"><span class="feature__icon tone-coral"><svg aria-hidden="true"><use href="#i-shield"></use></svg></span><h3 data-i18n="why.2.t">Transparent fares</h3><p data-i18n="why.2.d"></p></article>
+      <article class="feature reveal" style="--delay:.16s"><span class="feature__icon tone-sky"><svg aria-hidden="true"><use href="#i-chat"></use></svg></span><h3 data-i18n="why.3.t">Multilingual team</h3><p data-i18n="why.3.d"></p></article>
+      <article class="feature reveal" style="--delay:.24s"><span class="feature__icon tone-navy"><svg aria-hidden="true"><use href="#i-building"></use></svg></span><h3 data-i18n="why.4.t">Branches you can visit</h3><p data-i18n="why.4.d"></p></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BRANCHES ============ -->
+<section class="section section--white">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <span class="eyebrow" data-i18n="branches.eyebrow">Our branches</span>
+        <h2 data-i18n="branches.title">Visit us in person</h2>
+      </div>
+      <a class="btn btn--outline" href="branches.html"><span data-i18n="branches.viewAll">See all branches</span><svg aria-hidden="true"><use href="#i-arrow"></use></svg></a>
+    </div>
+    <!-- Future Laravel dynamic branch cards -->
+    <div class="grid grid--3" data-branches data-limit="3"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="cta-band reveal">
+      <div>
+        <h2 data-i18n="cta.title">Ready to plan your next trip?</h2>
+        <p data-i18n="cta.text">Send us your route and dates — we'll reply with the best available fare.</p>
+      </div>
+      <div class="cta-band__actions">
+        <a class="btn btn--whatsapp" href="#" data-contact="whatsapp"><svg aria-hidden="true"><use href="#i-whatsapp"></use></svg><span data-i18n="modal.whatsapp">WhatsApp Us</span></a>
+        <a class="btn btn--light" href="#" data-contact="phone"><svg aria-hidden="true"><use href="#i-phone"></use></svg><span data-i18n="modal.call">Call Our Office</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  </main>
+
+  <footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html">
+          <span class="brand__mark"><svg aria-hidden="true"><use href="#i-plane"></use></svg></span>
+          <span>SkyAtlas<small>Travel</small></span>
+        </a>
+        <p data-i18n="footer.tagline">Premium international flight fares with personal assistance in four languages.</p>
+      </div>
+      <div>
+        <h3 data-i18n="footer.explore">Explore</h3>
+        <ul>
+          <li><a href="flights.html" data-i18n="nav.flights">Flights</a></li>
+          <li><a href="destinations.html" data-i18n="nav.destinations">Destinations</a></li>
+          <li><a href="about.html" data-i18n="nav.about">About Us</a></li>
+          <li><a href="branches.html" data-i18n="nav.branches">Our Branches</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 data-i18n="footer.contact">Contact</h3>
+        <ul>
+          <li><a class="ltr" href="#" data-contact="phone" data-config="phone">+39 000 000 0000</a></li>
+          <li><a href="#" data-contact="whatsapp">WhatsApp</a></li>
+          <li><a href="#" data-contact="email" data-config="email">info@skyatlas-travel.example</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 data-i18n="footer.hours">Hours</h3>
+        <p data-config="hours">Mon–Sat · 09:00–19:00</p>
+        <p style="margin-top:1rem"><span class="demo-note" data-i18n="footer.demo">Demo content</span></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> SkyAtlas Travel. <span data-i18n="footer.rights">All rights reserved.</span></span>
+      <span>EN · IT · বাংলা · العربية</span>
+    </div>
+  </div>
+</footer>
+
+  
+
+<!-- Flight enquiry modal -->
+<div class="modal" id="flight-modal" aria-hidden="true">
+  <div class="modal__backdrop" data-modal-close></div>
+  <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="flight-modal-title">
+    <div class="modal__head">
+      <span class="eyebrow" data-i18n="modal.flight.eyebrow">Flight enquiry</span>
+      <h2 id="flight-modal-title" data-f="title">—</h2>
+      <p data-i18n="modal.flight.text">Contact us to confirm availability and the final fare. No payment is taken online.</p>
+      <button type="button" class="modal__close" data-modal-close data-i18n-aria="modal.close" aria-label="Close"><svg aria-hidden="true"><use href="#i-close"></use></svg></button>
+    </div>
+    <div class="modal__body">
+      <dl class="detail-list">
+        <div><dt data-i18n="modal.route">Route</dt><dd data-f="route">—</dd></div>
+        <div><dt data-i18n="modal.airline">Airline</dt><dd data-f="airline">—</dd></div>
+        <div><dt data-i18n="modal.type">Trip type</dt><dd data-f="type">—</dd></div>
+        <div><dt data-i18n="modal.price">Displayed fare</dt><dd class="big" data-f="price">—</dd></div>
+      </dl>
+      <div class="modal__actions">
+        <a class="btn btn--whatsapp btn--block" data-f="whatsapp" href="#" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-whatsapp"></use></svg><span data-i18n="modal.whatsapp">WhatsApp Us</span></a>
+        <a class="btn btn--primary btn--block" data-f="call" href="#"><svg aria-hidden="true"><use href="#i-phone"></use></svg><span data-i18n="modal.call">Call Our Office</span></a>
+        <a class="btn btn--outline btn--block" data-f="mail" href="#"><svg aria-hidden="true"><use href="#i-mail"></use></svg><span data-i18n="modal.mail">Send an Email</span></a>
+      </div>
+      <p class="modal__note" data-i18n="modal.note">Fares shown are indicative and confirmed personally by our team.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Branch contact modal -->
+<div class="modal" id="branch-modal" aria-hidden="true">
+  <div class="modal__backdrop" data-modal-close></div>
+  <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="branch-modal-title">
+    <div class="modal__head">
+      <span class="eyebrow" data-i18n="modal.branch.eyebrow">Branch contact</span>
+      <h2 id="branch-modal-title" data-b="title">—</h2>
+      <p data-b="city">—</p>
+      <button type="button" class="modal__close" data-modal-close data-i18n-aria="modal.close" aria-label="Close"><svg aria-hidden="true"><use href="#i-close"></use></svg></button>
+    </div>
+    <div class="modal__body">
+      <dl class="detail-list">
+        <div><dt data-i18n="modal.address">Address</dt><dd data-b="address">—</dd></div>
+        <div><dt data-i18n="modal.phone">Phone</dt><dd class="ltr" data-b="phone">—</dd></div>
+        <div><dt data-i18n="modal.email">Email</dt><dd data-b="email">—</dd></div>
+        <div><dt data-i18n="modal.hours">Opening hours</dt><dd data-b="hours">—</dd></div>
+      </dl>
+      <div class="modal__actions">
+        <a class="btn btn--whatsapp btn--block" data-b="whatsapp" href="#" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-whatsapp"></use></svg><span data-i18n="modal.whatsapp">WhatsApp Us</span></a>
+        <a class="btn btn--primary btn--block" data-b="call" href="#"><svg aria-hidden="true"><use href="#i-phone"></use></svg><span data-i18n="modal.call">Call Our Office</span></a>
+        <a class="btn btn--outline btn--block" data-b="mail" href="#"><svg aria-hidden="true"><use href="#i-mail"></use></svg><span data-i18n="modal.mail">Send an Email</span></a>
+      </div>
+      <p class="modal__note" data-i18n="modal.branch.text">Reach this branch directly by WhatsApp, phone or email.</p>
+    </div>
+  </div>
+</div>
+
+  
+<template id="tpl-flight-card">
+  <button type="button" class="flight-card">
+    <span class="flight-card__head">
+      <span class="airline"><span class="airline__logo" data-slot="logo"></span><span data-slot="airline"></span></span>
+      <span class="tag" data-slot="label"></span>
+    </span>
+    <span class="route">
+      <span class="route__point"><strong data-slot="fromCode"></strong><span data-slot="fromCity"></span></span>
+      <span class="route__line" aria-hidden="true"><svg><use href="#i-plane"></use></svg></span>
+      <span class="route__point route__point--end"><strong data-slot="toCode"></strong><span data-slot="toCity"></span></span>
+    </span>
+    <span class="flight-card__meta">
+      <span data-slot="type"></span>
+      <span data-slot="note"></span>
+    </span>
+    <span class="flight-card__foot">
+      <span class="price">
+        <small data-slot="fromLabel"></small>
+        <strong data-slot="price"></strong>
+        <em data-slot="pp"></em>
+      </span>
+      <span class="btn btn--primary btn--sm" data-slot="cta"></span>
+    </span>
+  </button>
+</template>
+
+  
+<template id="tpl-destination-card">
+  <button type="button" class="dest-card reveal">
+    <img data-slot="img" src="" alt="" loading="lazy" width="1024" height="1280">
+    <span class="dest-card__body">
+      <span class="dest-card__country" data-slot="country"></span>
+      <h3 data-slot="name"></h3>
+      <p data-slot="desc"></p>
+      <span class="dest-card__cta" data-slot="cta"></span>
+    </span>
+  </button>
+</template>
+
+  
+<template id="tpl-branch-card">
+  <button type="button" class="branch-card">
+    <span class="branch-card__map" aria-hidden="true">
+      <span class="branch-card__pin" data-slot="pin"><svg><use href="#i-pin"></use></svg></span>
+      <span class="branch-card__maplabel" data-slot="maplabel"></span>
+    </span>
+    <span class="branch-card__body">
+      <span>
+        <span class="eyebrow" data-slot="city"></span>
+        <h3 data-slot="name"></h3>
+      </span>
+      <ul class="branch-list">
+        <li><svg aria-hidden="true"><use href="#i-pin"></use></svg><span data-slot="address"></span></li>
+        <li><svg aria-hidden="true"><use href="#i-phone"></use></svg><span class="ltr" data-slot="phone"></span></li>
+        <li><svg aria-hidden="true"><use href="#i-mail"></use></svg><span data-slot="email"></span></li>
+        <li><svg aria-hidden="true"><use href="#i-clock"></use></svg><span data-slot="hours"></span></li>
+      </ul>
+      <span class="btn btn--outline btn--block" data-slot="cta"></span>
+    </span>
+  </button>
+</template>
+
+
+  <!-- Floating contact shortcuts -->
+  <div class="fab">
+    <a class="fab__wa" data-contact="whatsapp" href="#" aria-label="WhatsApp"><svg aria-hidden="true"><use href="#i-whatsapp"></use></svg></a>
+    <a class="fab__call" data-contact="phone" href="#" data-i18n-aria="modal.call" aria-label="Call Our Office"><svg aria-hidden="true"><use href="#i-phone"></use></svg></a>
+  </div>
+
+  
+  <script src="public/assets/js/data.js"></script>
+  <script src="public/assets/js/translations.js"></script>
+  <script src="public/assets/js/language.js"></script>
+  <script src="public/assets/js/animations.js"></script>
+  <script src="public/assets/js/navigation.js"></script>
+  <script src="public/assets/js/flight-modal.js"></script>
+  <script src="public/assets/js/branch-modal.js"></script>
+  <script src="public/assets/js/app.js"></script>
+</body>
+</html>

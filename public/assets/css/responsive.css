@@ -1,0 +1,55 @@
+/* ==========================================================================
+   Responsive — tablet & mobile adjustments
+   ========================================================================== */
+@media (max-width: 1240px) {
+  .nav__phone { display: none; }
+  .nav__links a { padding-inline: .65rem; font-size: .88rem; }
+}
+
+@media (max-width: 1080px) {
+  .nav__links, .nav__cta, .nav__actions > .lang { display: none; }
+  .nav__toggle { display: grid; }
+  .nav__actions { margin-inline-start: auto; }
+
+  .hero__inner { grid-template-columns: 1fr; gap: 2.5rem; }
+  .hero__stack { justify-items: stretch; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .hero__stack .route-card { grid-column: 1 / -1; width: 100%; }
+  .glass-card { min-width: 0; }
+
+  .grid--3, .grid--4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .dest-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .dest-card:nth-child(8n + 4) { grid-column: auto; }
+  .split { grid-template-columns: 1fr; gap: 2.5rem; }
+  .split__badge { inset-inline-end: 1rem; }
+  .contact-layout { grid-template-columns: 1fr; }
+  .cta-band { grid-template-columns: 1fr; padding: 3rem 2rem; }
+  .cta-band__actions { justify-content: flex-start; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 680px) {
+  .section { padding-block: 4rem; }
+  .announce { font-size: .74rem; }
+  .announce .container { padding-block: .45rem; }
+  .brand small { display: none; }
+  .hero__inner { padding-top: calc(var(--header-h) + 5rem); padding-bottom: 4rem; }
+  .hero__stack { grid-template-columns: 1fr; }
+  .hero__actions .btn { flex: 1 1 100%; }
+  .float-plane { display: none; }
+
+  .grid--2, .grid--3, .grid--4 { grid-template-columns: 1fr; }
+  .dest-grid { grid-template-columns: 1fr; grid-auto-rows: 320px; }
+  .dest-card:nth-child(n) { grid-row: auto; grid-column: auto; }
+  .dest-card__cta { opacity: 1; transform: none; }
+
+  .filters { border-radius: 22px; }
+  .select-wrap, .select-wrap select { width: 100%; }
+  .stats { grid-template-columns: 1fr; }
+  .form-card { padding: 1.5rem; }
+  .form-grid { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: 1fr; }
+  .modal { align-items: end; padding: 0; }
+  .modal__dialog { width: 100%; border-radius: 28px 28px 0 0; max-height: 92vh; }
+  .fab { bottom: .9rem; inset-inline-end: .9rem; }
+  .fab a { width: 50px; height: 50px; }
+}
